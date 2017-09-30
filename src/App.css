@@ -1,0 +1,113 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  align-items: center;
+}
+
+.cost {
+  margin-left: 10%;
+  width: 40%;
+}
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+body{
+  font-family: 'Laila';
+}
+
+.encase div{
+  margin-top: 50%;
+}
+
+.tiles {
+  height: 33%;
+}
+
+.qty {
+  display: flex;
+  flex-direction: row;
+  margin-left: 35%;
+}
+
+
+.qty_input{
+  width: 10%;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  border-bottom: 1px solid black;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+th {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding: 2%;
+}
+
+td {
+  padding: 1%;
+}
+
+.fragment {
+    font-size: 12px;
+    font-family: tahoma;
+    height: auto;
+    border: 1px solid #ccc;
+    color: #555;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    width: 120px;
+}
+
+.fragment:span {
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+
+}
+
+.fragment img {
+    float: left;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+
+.fragment h3 {
+    padding: 0;
+    margin: 0;
+    color: #369;
+}
+.fragment h4 {
+    padding: 0;
+    margin: 0;
+    color: #000;
+}
+#close {
+    float:right;
+    display:inline-block;
+    padding:2px 5px;
+    background:#ccc;
+    margin-top: -18px;
+}
